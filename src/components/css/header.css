@@ -1,0 +1,76 @@
+body {
+  padding: 0 !important;
+  margin: 0 !important;
+  background-color: #000;
+  caret-color: transparent;
+  color: #fff;
+ 
+}
+*{
+    /* font-family: "Montserrat", sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif; */
+}
+.b-navbar {
+  max-width: 95%;
+  margin: 0 auto;
+  position: relative;
+  left: -60px;
+}
+.logo-img {
+  width: 300px;
+  position: relative;
+  top: -35px;
+}
+.nav_link,
+.fa-bars {
+  color: #fff !important;
+}
+.nav_link {
+  margin-left: 35px;
+  font-size: 10px;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+
+}
+.nav_link i {
+  font-size: 17px;
+  margin-top: 7px;
+  cursor: pointer;
+}
+.header-menues {
+  position: relative;
+  top: -35px;
+}
+button#dropdown-basic {
+  background: black;
+  border: none !important;
+  outline: none;
+  margin-left: 35px;
+  font-family: "Montserrat", sans-serif;
+font-size: 11px;
+margin-top: 1px;
+}
+button#dropdown-basic:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.dropdown-menu{
+    background-color: #000;
+}
+.nav_link:hover {
+    color: #bfc500 !important;
+    background: none
+
+}
+
+.d-heading:hover{
+    color: #bfc500 !important;
+}
+.nav_link a{
+  text-decoration: none !important;
+  color: #fff;
+}
+.nav_link a:hover{
+  color: #bfc500 !important;
+}
