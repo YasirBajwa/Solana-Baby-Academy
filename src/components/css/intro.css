@@ -24,8 +24,6 @@
 .bt-wrapper {
   max-width: 82%;
   margin: 0 auto;
-  /* position: relative; */
-  /* top: -339px; */
 }
 .banner-text {
   background-color: #000;
@@ -49,29 +47,25 @@
   cursor: pointer;
 }
 .e-btn:hover {
-    background-color: #fff;
-    color: #000;
-  }
-.wrapper-container{
-    display: flex;
-    margin-top: 30px;
+  background-color: #fff;
+  color: #000;
 }
-.bl-text{
-    margin-top: 22px;
-    margin-left: 25px;
+.wrapper-container {
+  display: flex;
+  margin-top: 30px;
+}
+.bl-text {
+  margin-top: 22px;
+  margin-left: 25px;
   font-family: "Poppins", sans-serif;
-
 }
-.b-hr hr{
+.b-hr hr {
   width: 250px;
-
 }
-.blinker-wrapper h3{
+.blinker-wrapper h3 {
   font-family: "Montserrat", sans-serif;
-
 }
-.s-text{
-    font-family: "Poppins", sans-serif;
-    margin-top: 50px;
-
+.s-text {
+  font-family: "Poppins", sans-serif;
+  margin-top: 50px;
 }

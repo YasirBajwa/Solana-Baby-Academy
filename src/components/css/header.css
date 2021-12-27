@@ -4,12 +4,6 @@ body {
   background-color: #000;
   caret-color: transparent;
   color: #fff;
- 
-}
-*{
-    /* font-family: "Montserrat", sans-serif;
-    font-family: "Poppins", sans-serif;
-    font-family: "Roboto", sans-serif; */
 }
 .b-navbar {
   max-width: 95%;
@@ -31,7 +25,6 @@ body {
   font-size: 10px;
   cursor: pointer;
   font-family: "Montserrat", sans-serif;
-
 }
 .nav_link i {
   font-size: 17px;
@@ -48,29 +41,28 @@ button#dropdown-basic {
   outline: none;
   margin-left: 35px;
   font-family: "Montserrat", sans-serif;
-font-size: 11px;
-margin-top: 1px;
+  font-size: 11px;
+  margin-top: 1px;
 }
 button#dropdown-basic:focus {
   outline: none !important;
   box-shadow: none !important;
 }
-.dropdown-menu{
-    background-color: #000;
+.dropdown-menu {
+  background-color: #000;
 }
 .nav_link:hover {
-    color: #bfc500 !important;
-    background: none
-
+  color: #bfc500 !important;
+  background: none;
 }
 
-.d-heading:hover{
-    color: #bfc500 !important;
+.d-heading:hover {
+  color: #bfc500 !important;
 }
-.nav_link a{
+.nav_link a {
   text-decoration: none !important;
   color: #fff;
 }
-.nav_link a:hover{
+.nav_link a:hover {
   color: #bfc500 !important;
 }
