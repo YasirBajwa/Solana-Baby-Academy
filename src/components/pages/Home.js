@@ -5,7 +5,6 @@ import "./../css/responsive.css";
 import HeroImage from "./../images/s-3.jpg";
 import SideImage from "./../images/s-8.jpg";
 import SideImage2 from "./../images/s-11.jpg";
-import Logo from "./../images/s-10.png";
 import Logo2 from "./../images/s-2.png";
 
 function Home() {
@@ -81,57 +80,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="m_85">
-        <hr />
-      </div>
 
-      <div className="m_85 images_section">
-        <div>
-          <div className="b-img">
-            <img className="img-fluid" src={Logo} alt="" />
-          </div>
-          <div className="text-center">
-            10,000 Provably-rare
-            <br /> Bored Ape tokens
-          </div>
-        </div>
-        <div>
-          <div className="b-img">
-            <img className="img-fluid" src={Logo} alt="" />
-          </div>
-          <div className="text-center">
-            10,000 Provably-rare
-            <br /> Bored Ape tokens
-          </div>
-        </div>
-        <div>
-          <div className="b-img">
-            <img className="img-fluid" src={Logo} alt="" />
-          </div>
-          <div className="text-center">
-            10,000 Provably-rare
-            <br /> Bored Ape tokens
-          </div>
-        </div>
-        <div>
-          <div className="b-img">
-            <img className="img-fluid" src={Logo} alt="" />
-          </div>
-          <div className="text-center">
-            10,000 Provably-rare
-            <br /> Bored Ape tokens
-          </div>
-        </div>
-        <div>
-          <div className="b-img">
-            <img className="img-fluid" src={Logo} alt="" />
-          </div>
-          <div className="text-center">
-            10,000 Provably-rare
-            <br /> Bored Ape tokens
-          </div>
-        </div>
-      </div>
 
       <div className="m_85" id="roadmap">
         <hr />
@@ -162,6 +111,14 @@ function Home() {
           </div>
           <div className="roadmap-points">
             <div className="r-color">4</div>
+            <div className="ml-80">
+            See if the community wants to start a dao. Vote will be few weeks after sellout.
+            </div>
+          </div>
+
+
+          <div className="roadmap-points">
+            <div className="r-color">5</div>
             <div className="ml-80">
               Can’t put everything in roadmap don’t want other projects to front
               run us.

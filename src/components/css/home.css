@@ -245,14 +245,17 @@ input::placeholder {
   color: #fff !important;
 }
 .email-submit {
-  line-height: 0;
   background-color: #4b4a4a;
   border: 0ch;
   height: 40px;
   color: #fff;
   caret-color: transparent;
-  transition: 0.3s;
   font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  cursor: pointer;
 }
 .email-submit:hover {
   background-color: #bfc500;
